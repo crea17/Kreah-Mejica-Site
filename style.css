@@ -24,7 +24,6 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    
 }
 .top-star,
 .bottom-star {
@@ -43,6 +42,15 @@ h2 {
     margin-bottom: 20px;
     color: #555;
 }
+.titlee {
+
+    font-size: large;
+    text-align: left;
+}
+desc {
+    font-size: large;
+    text-align: left;
+}
 .pro {
     color: a3386c;
 }
@@ -51,46 +59,24 @@ h2 {
     width: 80%;
     margin: 50px auto;
     background-color: #fff;
-    padding: 30px;
+    padding: 0px;
 }
 .profile {
     text-align: center;
 }
 .profile img {
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    border: 5px solid #c45d7c;
 }
 .intro {
     font-style: italic;
     color: #777;
 }
 hr {
-    margin: 30px 0;
-}
-.suzy {
-    width: 100px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}    
-.suzy2 {
-    width: 100px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-.skills {
-    text-align: center;
-}
-.skill-row {
-    display: flex; 
-    justify-content: space-around;
-    align-items: center; 
-    margin-bottom: 20px;
-}
-.skill-row img {
-    width: 150px; 
+   display: block;
+   margin-top: 0.5em;
 }
 .contact-me {
     text-align: center;
@@ -107,7 +93,7 @@ hr {
 }
 .bottom-container {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: F2B8C6; 
     color: #fff;
 }
@@ -118,4 +104,85 @@ hr {
 }
 .footer-link:hover {
     text-decoration: underline;
+}
+a:hover {
+    color: #AA336A;
+}
+.skillone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 1000px;
+    color: #e75480;   
+}
+.oned {
+    margin-left: 30px;
+    max-width: 400px;
+}
+.design {
+    font-size: 1.5em;
+    color: #e75480;
+    margin-left: 3px;
+}
+.graphic {
+    font-size: 1.5em;
+    color: #e75480;
+    margin-left: 3px;
+}
+.d {
+    color: #a53d5c;
+    margin-left: 3px;
+}
+.myskills {
+    text-align: center;
+    color: #AA336A;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: #333;
+}
+.vtextt {
+    position: static;
+    text-align: left;
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.one {  
+    width: 200px;
+    height: 200px;
+    margin-left: 0;
+    border-radius: 100px;
+}
+.two {
+    width: 200px;
+    height: 200px;
+    margin-left: 900px;
+    margin-top: -150px;
+    border-radius: 100px;
+}
+.helloworld {
+    color: #c45d7c;
+}
+.graphic {     
+    margin-left: 450px;
+}
+.i {
+    color: #a53d5c;
+    margin-left: 450px;
+}
+.intro {
+    color: #c45d7c;
+}
+.contact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #AA336A;
+    text-shadow: #333;
+}
+.copyright {
+    font-size: 12px;
+    color: #a53d5c;
+    margin-top: 15px;
+}
+.me {
+    margin-top: -50px;
 }
